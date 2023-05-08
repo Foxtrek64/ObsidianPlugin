@@ -13,12 +13,6 @@
     <EnablePreviewFeatures>true</EnablePreviewFeatures>
 </PropertyGroup>
 
-<ItemGroup>
-  <Compile Remove="ServerFiles\**" />
-  <EmbeddedResource Remove="ServerFiles\**" />
-  <None Remove="ServerFiles\**" />
-</ItemGroup>
-
   <ItemGroup>
     <Reference Include="Obsidian.API">
       <HintPath>ServerFiles\Obsidian.API.dll</HintPath>
